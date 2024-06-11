@@ -14,6 +14,8 @@ export class SpaCdkStack extends cdk.Stack {
         websiteIndexDocument: 'index.html',
         publicReadAccess: false,
         blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+        autoDeleteObjects: true,
+        removalPolicy: RemovalPolicy.DESTROY
       });
   
       spaBucket.addToResourcePolicy(new iam.PolicyStatement({
