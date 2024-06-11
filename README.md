@@ -1,7 +1,9 @@
 # Task 2 
+
 *Manually:*
 - [S3 Bucket with 403 error](https://rs-shop-s3.s3.eu-central-1.amazonaws.com/)
 - [CloudFront](https://dhv1ain5homf9.cloudfront.net/)
+
 *Auto deploy:*
 - [S3 Bucket with 403 error](http://spacdkstack-spabucket48e1059f-aorlccefbk1i.s3.eu-central-1.amazonaws.com/)
 - [CloudFront](https://d3iz0tscydqj9h.cloudfront.net/)
